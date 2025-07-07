@@ -1,0 +1,24 @@
+@import "tailwindcss";
+.container {
+  max-width: 1408px;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: 'Bagoss';
+  src: url('../app/assets/fonts/Bagoss-Standard-Regular.woff') format('woff2'),
+       url('../app/assets/fonts/Bagoss-Standard-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.font-bagoss{
+    font-family: 'Bagoss';
+    font-weight: normal;
+}
+.font-bagoss-bold{
+    font-family: 'Bagoss';
+    font-weight: 600;
+}
+.font-inter{
+    font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,142 @@
+{
+  "HomePage":{
+    "navbar-links" : [
+      { "label": "Starte hier", "href": "/" },
+      { "label": "Warum Fyndo?", "href": "/" },
+      { "label": "Estimation", "href": "/" },
+      { "label": "Screening", "href": "/" },
+      { "label": "So funktioniert’s", "href": "/" },
+      { "label": "Sicherheit", "href": "/" },
+      { "label": "Unsere Story", "href": "/" },
+      { "label": "FaQ", "href": "/" },
+      { "label": "Support", "href": "/" }
+    ],
+    "packages-labels" : [
+      { "label": "Estimation Paket" },
+      { "label": "Screening Paket" }
+    ],
+    "navbar-btn": "Plan auswählen",
+    "banner_title": "Bis zu 70 % aller IT-Projekte scheitern. Fyndo macht aus Ideen starke Lösungen.",
+    "banner_subtitle": "Gründer, KMUs & Investoren lieben Fyndo – weil wir Planungsfehler & Kostenexplosionen stoppen. Mit Fyndo bleibst du im Budget, sparst dir HR-Stress & bekommst klare IT-Klarheit – zum Festpreis.",
+    "saving_heading": "Mit Fyndo sparst du bis zu\n 74 % deiner Projektkosten.",
+    "saving_one_headingone": "schneller als klassische IT-Dienstleister",
+    "saving_one_headingtwo": "6x",
+    "saving_one_headingthree": "schneller",
+    "saving_two_headingone": "Durchschnittliche\n Einsparungen",
+    "saving_two_headingtwo": "32.000€",
+    "saving_two_headingthree": "pro Jahr",
+    "saving_three_headingone": " Echte Fyndo-Experten,\n statt Chatbots",
+    "saving_three_headingtwo": "40+",
+    "saving_three_headingthree": "Fyndoo's",
+    "Easy_smalltitle": "Made Easy with Fyndo",
+    "Easy_title": "Für alle, die starten wollen–\n 2 Festpreis-Pakete, die zu dir passen.",
+    "Easy_subtitle": "Fyndo schlägt die Brücke zwischen Idee und Tech. Kein Wirrwarr – nur Klarheit. Support gibt’s in wenigen Stunden.",
+    "estimation_heading": "Estimation Paket",
+    "estimation_subheading": "Du willst starten oder aufrüsten? Du brauchst Zahlen, statt heiße Luft? Wir machen Schluss mit dem Ratespiel. Bei uns bekommst du Klarheit – nicht nur Versprechen.",
+    "estimation_list_itemoneheading": "Dein Projekt? Von CTOs & Tech-Leads geprüft",
+    "estimation_list_itemonetext": "Nur Experten mit 8+ Jahren US/EU-Erfahrung analysieren dein Vorhaben. Kein Copy-Paste, Keine KI-Templates –  echte Experten dahinter.",
+    "estimation_list_itemtwoheading": "Zahlen, denen du trauen kannst. Lösungen, die halten.",
+    "estimation_list_itemtwotext": "Fundierte Zahlen und Tech-Empfehlungen, mit denen du wirklich planen kannst – für Strategie, Businesspläne, Pitch oder Investorengespräche.",
+    "estimation_list_itemthreeheading": "Klarheit in 72 Stunden",
+    "estimation_list_itemthreetext": "Du bekommst Klarheit – als PDF, per Mail. In 3 Tagen liegt’s fertig bei dir.",
+    "screening_heading": "Screening Paket",
+    "screening_subheading": "Du musst dich zwischen zwei Bewerbern entscheiden? Unser Test nach Silicon-Valley-Standard zeigt dir, wer wirklich was draufhat. So triffst du die richtige Wahl – mit Fakten, nicht Gefühl.",
+    "screening_list_itemoneheading": "Deine Kandidaten. Unser Test. 1:1 Skills-Check.",
+    "screening_list_itemonetext": "30 Minuten Live Coding. 30 Minuten Soft Skills.Wir analysieren beide Kandidaten in 2 Stunden – strukturiert und messbar.",
+    "screening_list_itemtwoheading": "IT-Support in 24 Stunden",
+    "screening_list_itemtwotext": "Während andere sich in Papierkram verlieren, liefern wir dir morgen schon erste Hilfe.",
+    "screening_list_itemthreeheading": "Wir liefern den Bericht. Du entscheidest.",
+    "screening_list_itemthreetext": "Du bekommst klare PDF-Auswertungen zu beiden Kandidaten – damit du sicher entscheiden kannst.",
+    "fyndo-steps-heading": "In nur 3 Schritten\n bist du deiner Mission ein großes Stück näher.",
+    "fyndo-steps-subheading": "Wir machen es dir ganz leicht – wir kümmern uns um die technischen Details\n und liefern dir klare Ergebnisse, ohne Verwirrung oder Verzögerungen.",
+    "fyndo-stepone-heading": "Wähle dein Paket",
+    "fyndo-stepone-subheading": "Wähle das passende Paket – oder beide! Wenn du Fragen hast, sind wir fast den ganzen Tag erreichbar und helfen dir gerne weiter.",
+    "fyndo-steptwo-heading": "Zahle sicher & digital",
+    "fyndo-steptwo-subheading": "Unsere Zahlung läuft digital & transparent.Die Rechnung kommt per E-Mail – achte bitte auf deine korrekte Mail und Telefonnummer.",
+    "fyndo-stepthree-heading": "Unser Team meldet sich",
+    "fyndo-stepthree-subheading": "Deine Idee, Mission oder dein Projekt ist bei uns sicher – durch klare NDAs und eine Arbeitsweise, die auf Werten und Vertrauen basiert.",
+    "fyndo-steps-heading2": "Wir schützen deine Vision mit NDAs und starker ethischer Haltung.",
+    "fyndo-steps-subheading2": "Deine Idee, Mission oder dein Projekt ist bei uns sicher – durch klare NDAs\n und eine Arbeitsweise, die auf Werten und Vertrauen basiert.",
+    "fyndo-stepfour-heading": "DSGVO-Konform",
+    "fyndo-stepfour-subheading": "Als europäisches Unternehmen befolgen wir DSGVO-Regeln. Fyndo schützt deine Daten, wahrt deine Privatsphäre und arbeitet ethisch – für Vertrauen zwischen Gründern und Investoren.",
+    "fyndo-stepfive-heading": "Wir unterschreiben deine NDA",
+    "fyndo-stepfive-subheading": "Wir unterzeichnen gerne deine oder unsere NDA vor Projektstart. Du kannst dein eigene vorbereiten oder unser NDA nutzen – so sichern wir Vertrauen von Anfang an.",
+    "fyndo-stepsix-heading": "Keine Datenteilung. Volle Vertraulichkeit.",
+    "fyndo-stepsix-subheading": "Alle Daten und Gespräche bleiben vertraulich. Wir verkaufen, tauschen oder teilen nichts mit Dritten – deine Privatsphäre und Sicherheit sind bei uns garantiert.",
+    "tech-stack-heading": "So viele Tools und Stacks – und viele gute Optionen für dich.",
+    "tech-stack-subheading": "Ob Frontend, Backend oder DevOps – wir decken vieles ab.\n Wir arbeiten mit vielen modernen Stacks – unten eine Auswahl.\n Frage gerne nach – wir können mehr, als hier steht.",
+    "biggie-small-heading": "Fyndo unterstützt Gründer und Investoren",
+    "biggie-heading": "Biggies Worte im Ohr: it was all a dream—\n jetzt ist Fyndo echte Hilfe.",
+    "biggie-subheading": "Fyndo entstand mit einem Ziel – Gründer und Investoren zu unterstützen,\n vor allem ohne Tech-Hintergrund. Mit echten Absichten und einer Mission,\n die uns heute noch leitet.",
+    "biggie-card1-headingone": "Egal ob festgefahren oder am Anfang – 40+ Fyndooer sind bereit einzuspringen.",
+    "biggie-card1-headingtwo": "Wir haben keine Verkäufer. Jeder Fyndo-Experte hat 8+ Jahre Praxis – echte Macher, keine Theoretiker. Diesen Unterschied spürst du sofort.",
+    "biggie-card2-headingone": "Fyndo-Gründerteam",
+    "biggie-card2-headingtwo": "Lerne die Gründer hinter Fyndos Vision kennen",
+    "biggie-card2-headingthree": "Juli und Kasi gründeten Fyndo, aus der Überzeugung, dass echtes Helfen Menschen näherbringt, verbindet und die Welt durch mehr Menschlichkeit, Vertrauen und Zusammenhalt nachhaltig positiv verändert.",
+    "biggie-card3-headingone": "Fyndos zentrale Hubs",
+    "biggie-card3-headingtwo": "Fyndo entstand mit guten Absichten, mit Hubs in Deutschland und Polen.",
+    "biggie-card3-headingthree": "Gegründet von deutschen und polnischen Köpfen, sitzt Fyndo in Warschau – aber unser Remote-Team weltweit macht uns schneller, flexibler und besser im Work-Life-Balance.",
+    "biggie-card4-headingone": "Zeit ist Geld",
+    "biggie-card4-headingtwo": "Unsere flexible Struktur macht uns effizienter als klassische Firmen – mit bis zu sechsmal schnelleren Ergebnissen, ganz ohne Qualitätsverlust.",
+    "faq-heading": "Etwas unklar? Frag einfach Fyndo.",
+    "accordion": [
+        {
+          "title": "Estimation oder Screening – Was brauch ich eigentlich?",
+          "content": "Wenn du schnell Tech-Talente checken willst, ist Screening genau dein Ding. Zwei Kandidat:innen, ein technisches Challenge, je ein 30-Min-Interview – und du weißt sofort, wer’s draufhat. Du planst ein Projekt und brauchst Klarheit über Umfang, Zeitplan und Zahlen? Dann ist Estimation deine Abkürzung: Du teilst uns deine Vision, wir liefern dir in 72 Stunden ein durchdachtes, technisches Konzept. Egal ob Hiring oder Produktvalidierung – Fyndo gibt dir genau den Support, den du brauchst. Speziell für nicht-technische Gründer:innen, Startups und Investor:innen gebaut."
+        },
+        {
+          "title": "Kann Fyndo auch mein Tech-Stack?",
+          "content": "Sehr wahrscheinlich. Unser Team aus über 40 Expert:innen hat schon an ganz unterschiedlichen Tech-Projekten gearbeitet – von Mobile & Web bis hin zu AI oder Blockchain. Ob React, Node.js, Python oder etwas Ausgefalleneres: In vielen Fällen haben wir genau die richtigen Leute an Bord. Und wir passen uns deinem Projekt an – nicht umgekehrt."
+        },
+        {
+          "title": "Screening: Wann geht’s los?",
+          "content": "Ziemlich direkt! Innerhalb von 24 Stunden nach deiner Anmeldung starten wir: Tech-Challenge vorbereiten, Kandidat:innen analysieren, Interviews planen. Gerade für nicht-technische Gründer:innen und schnelle Startup-Teams zählt jede Stunde – und wir liefern. Ohne Wartezeiten, ohne Umwege."
+        },
+        {
+          "title": "Wer macht bei Fyndo eigentlich den Job?",
+          "content": "Keine Juniors, keine Zufälle. Bei Fyndo arbeiten erfahrene Engineers und Produkt-Profis an deinem Projekt – remote aus verschiedenen Ländern, mit Fokus auf moderne Work-Life-Balance und smarte Prozesse. Dein Screening, deine Estimation, deine technische Einschätzung – alles kommt von Leuten, die echte Produkte gebaut und skaliert haben."
+        },
+        {
+          "title": "Warum eigentlich Fixpreise?",
+          "content": "Weil’s einfach einfacher ist. Unsere Screening- und Estimation-Pakete sind transparent, ohne versteckte Kosten oder Stundenchaos. Du weißt genau, was du bekommst – und was es kostet. Besonders für Startups und Gründer:innen heißt das: weniger Stress, mehr Planbarkeit. Technik ohne Kopfschmerzen."
+        },
+        {
+          "title": "Kann ich Fyndo meinen Stack wirklich anvertrauen?",
+          "content": "Ja! Unser Team ist fit in sehr vielen Technologien von React bis Kubernetes, von API-Design bis Web3. Wir arbeiten mit Best Practices, achten auf Sicherheit & Skalierbarkeit und bringen Tech-Kompetenz aus zig Branchen mit. Ob MVP oder Enterprise-Upgrade – dein Projekt ist bei uns in sehr guten Händen."
+        },
+        {
+          "title": "Was steht eigentlich in dem PDF, das ihr schickt?",
+          "content": "Das Estimation-Dokument ist mehr als nur ’ne Zahl: Es ist ein klar strukturierter Plan für dein Projekt. Milestones, Zeitpläne, Technologie-Vorschläge, Risiken, Teamstruktur, Budget – alles drin. Du bekommst echte Entscheidungsgrundlagen. Ob du mit uns weitergehst, Investor:innen überzeugst oder dein internes Team briefst: Dieses PDF bringt dir Klarheit & Fokus."
+        },
+        {
+          "title": "Passt Fyndo überhaupt zu meinem Projekt?",
+          "content": "Ziemlich sicher, ja! Fyndo ist gemacht für Startups, Solo-Founder:innen und Investor:innen. Egal ob du eine SaaS-Plattform baust, eine App launchst oder ein internes Tool entwickelst – wir helfen dir. Von der ersten Idee bis zur Skalierung. Schnell, kompetent und auf Augenhöhe."
+        },
+        {
+          "title": "Wie schnell seid ihr eigentlich?",
+          "content": "Ehrlich? Schnell. Screening startet innerhalb von 24 Stunden, Estimations bekommst du in 72 Stunden. Wir haben Fyndo so gebaut, dass du keine Wochen auf Ergebnisse wartest. Du willst Entscheidungen treffen, Chancen nutzen und durchstarten – wir liefern dir die Grundlage dafür. Schnell, professionell, auf den Punkt."
+        }
+    ],
+    "cta-heading" : "Sprich mit echten Menschen—\n wir sind 7 Tage pro Woche da.",
+    "cta-text" : "Wir sind mehr als ein Service –\n dein Support-Team. Schreib uns jederzeit per Mail, WhatsApp, Telegram, Chat –\n meist antworten wir in 2–3 Stunden.",
+    "cta-btn" : "Schreib uns per Mail",
+    "footer-text" : "Fyndo verbindet Gründer mit Tech – schneller, klarer, besser als herkömmliche Wege.",
+    "footer-links" : [
+      { "label": "Starte hier", "href": "/" },
+      { "label": "Warum Fyndo?", "href": "/" },
+      { "label": "Estimation", "href": "/" },
+      { "label": "Screening", "href": "/" },
+      { "label": "So funktioniert’s", "href": "/" },
+      { "label": "Sicherheit", "href": "/" },
+      { "label": "Unsere Story", "href": "/" },
+      { "label": "FaQ", "href": "/" },
+      { "label": "Support", "href": "/" }
+    ],
+    "copy-right": "Copyright © 2025 2digits Sp. z o.o. Alle Rechte vorbehalten",
+    "footer-links-more" : [
+      { "label": "Datenschutz", "href": "/" },
+      { "label": "AGB", "href": "/" },
+      { "label": "Support", "href": "/" }
+    ]
+    }
+}
