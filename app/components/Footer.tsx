@@ -11,13 +11,13 @@ function Footer() {
                 <h2 className="text-[40px] leading-11 lg:text-[47.63px] text-center lg:leading-[60px] text-white font-bagoss whitespace-pre-line">{t('cta-heading')}</h2>
                 <p className="text-sm leading-5 lg:text-lg text-center lg:leading-[25.92px] max-w-[688px] mx-auto text-[#B3B3B3] whitespace-pre-line">{t('cta-text')}</p>
                 <div className="flex items-center gap-3.5 justify-center mt-2">
-                    <a href="#"><img src="images/whatsapp.svg" alt="Whatsapp" /></a>
-                    <a href="#"><img src="images/telegram.svg" alt="Telegram" /></a>
+                    <a href="#"><img src="/images/whatsapp.svg" alt="Whatsapp" /></a>
+                    <a href="#"><img src="/images/telegram.svg" alt="Telegram" /></a>
                 </div>
                 <a href="#" className="w-[144px] h-[37px] bg-white text-black text-xs leading-[100%] rounded-[5px] flex items-center justify-center font-inter font-semibold mt-4 mx-auto">{t('cta-btn')}</a>
             </div>
             <div className="lg:pt-[58px] pt-[42px] bg-white rounded-xl mt-[54px] text-center">
-                <a href="#" className="flex justify-center"><img src="images/logo.svg" className="w-25" alt="Fyndo" /></a>
+                <a href="#" className="flex justify-center"><img src="/images/logo.svg" className="w-25" alt="Fyndo" /></a>
                 <p className="text-sm leading-[23px] tracking-[-0.23] text-[#A1A1A1] mt-4 whitespace-pre-line">{t('footer-text')}</p>
                 <div className="hidden lg:flex flex-wrap lg:flex-nowrap items-center gap-3 lg:gap-6 mt-7 justify-center pb-3 lg:pb-12 border-b border-[#F7F7F7] mx-6">
                     {links.map((link, idx) => (
@@ -50,8 +50,8 @@ function Footer() {
                         </div>
                     </div>
                     <div className="hidden lg:flex items-center gap-5">
-                        <a href="#"><img src="images/whatsapp.svg" className="w-5" alt="Whatsapp" /></a>
-                        <a href="#"><img src="images/telegram.svg" className="w-5" alt="Telegram" /></a>
+                        <a href="#"><img src="/images/whatsapp.svg" className="w-5" alt="Whatsapp" /></a>
+                        <a href="#"><img src="/images/telegram.svg" className="w-5" alt="Telegram" /></a>
                     </div>
                 </div>
             </div>

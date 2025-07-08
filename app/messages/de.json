@@ -134,9 +134,187 @@
     ],
     "copy-right": "Copyright © 2025 2digits Sp. z o.o. Alle Rechte vorbehalten",
     "footer-links-more" : [
-      { "label": "Datenschutz", "href": "/" },
+      { "label": "Datenschutz", "href": "privacy" },
       { "label": "AGB", "href": "/" },
       { "label": "Support", "href": "/" }
     ]
+  },
+   "About": {
+    "title": "Über uns",
+    "description": "Wir bauen großartige Webanwendungen."
+  },
+  "PrivacyPage": {
+    "navigation": {
+      "privacy": "Datenschutzerklärung",
+      "terms": "Geschäftsbedingungen",
+      "cookies": "Cookie-Richtlinie"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "effectiveDate": "In Kraft getreten am: 9. Juni 2025",
+      "intro": "Diese Datenschutzerklärung beschreibt, wie Fyndo, ein Produkt der 2digits SP. Z o. o., Ihre persönlichen Daten erhebt, verwendet und schützt.",
+      "sections": {
+        "whoWeAre": {
+          "title": "1. Wer wir sind",
+          "content": "Fyndo ist eine digitale Beratungsplattform für nicht-technische Gründer und Investoren. Wir bieten zwei Produkte an: Screening-Paket (Kandidatenbewertung) und Estimation-Paket (Projekteinschätzung).",
+          "companyDetails": "Firmendetails:\n2digits SP. Z o. o.\nul. Zlota 75A/7\n00-819 Warszawa, Polen\nUSt-IdNr.: PL5273047411\nREGON-Nummer: 527416810\nKRS-Nummer: 0001024599"
+        },
+        "informationWeCollect": {
+          "title": "2. Erhobene Daten",
+          "content": "Wir erheben folgende Daten:",
+          "items": [
+            "Persönliche Daten: Name, E-Mail, Zahlungsdaten",
+            "Nutzungsdaten: IP-Adresse, Browsertyp",
+            "Kommunikationsdaten: E-Mails"
+          ]
+        },
+        "dataSharing": {
+          "title": "3. Datenweitergabe",
+          "content": "Wir verkaufen Ihre Daten nicht. Weitergabe nur an:",
+          "items": [
+            "Vertrauenswürdige Dienstleister",
+            "Behörden bei gesetzlicher Verpflichtung"
+          ]
+        },
+        "dataSecurity": {
+          "title": "4. Datensicherheit",
+          "content": "Wir wenden angemessene technische Maßnahmen zum Schutz Ihrer Daten an."
+        },
+        "yourRights": {
+          "title": "5. Ihre Rechte",
+          "content": "Als EU-Bürger haben Sie das Recht auf:",
+          "items": [
+            "Auskunft",
+            "Berichtigung/Löschung",
+            "Widerruf der Einwilligung",
+            "Widerspruch",
+            "Beschwerde bei Aufsichtsbehörde"
+          ],
+          "contact": "Für die Ausübung Ihrer Rechte kontaktieren Sie uns unter privacy@fyndo.co."
+        },
+        "dataRetention": {
+          "title": "6. Datenspeicherung",
+          "content": "Wir speichern Daten nur so lange wie nötig."
+        },
+        "cookies": {
+          "title": "7. Cookies",
+          "content": "Wir verwenden essentielle und analytische Cookies."
+        },
+        "internationalTransfers": {
+          "title": "8. Internationale Datenübermittlung",
+          "content": "Daten können außerhalb der EU verarbeitet werden."
+        },
+        "policyChanges": {
+          "title": "9. Änderungen der Richtlinie",
+          "content": "Wir können diese Richtlinie aktualisieren."
+        }
+      }
+    },
+    "terms": {
+      "title": "Geschäftsbedingungen",
+      "effectiveDate": "In Kraft getreten am: 2. Mai 2025",
+      "intro": "Willkommen bei Fyndo, einem digitalen Beratungsservice der 2digits SP. Z o. o.",
+      "sections": {
+        "services": {
+          "title": "1. Dienstleistungen",
+          "content": "Wir bieten zwei Pakete an:",
+          "items": [
+            "Screening-Paket: Kandidatenbewertung",
+            "Estimation-Paket: Projekteinschätzung"
+          ],
+          "note": "Wir bieten nur Beratung, keine Entwicklung."
+        },
+        "eligibility": {
+          "title": "2. Teilnahmevoraussetzungen",
+          "content": "Sie bestätigen, mindestens 18 Jahre alt zu sein."
+        },
+        "ordering": {
+          "title": "3. Bestellung und Zahlung",
+          "items": [
+            "Alle Dienstleistungen werden online gekauft.",
+            "Preise in EUR, zzgl. MwSt.",
+            "Zahlung im Voraus erforderlich."
+          ],
+          "note": "Wir nutzen sichere Zahlungsanbieter."
+        },
+        "delivery": {
+          "title": "4. Leistungserbringung",
+          "content": "Dienstleistungen werden zeitnah erbracht."
+        },
+        "refunds": {
+          "title": "5. Rückerstattung",
+          "content": "Rückerstattungen nur in Ausnahmefällen."
+        },
+        "responsibilities": {
+          "title": "6. Kundenpflichten",
+          "content": "Sie verpflichten sich zur Bereitstellung korrekter Informationen."
+        },
+        "ip": {
+          "title": "7. Geistiges Eigentum",
+          "content": "Alle Inhalte bleiben unser Eigentum."
+        },
+        "warranties": {
+          "title": "8. Haftungsausschluss",
+          "content": "Dienstleistungen werden 'wie besehen' bereitgestellt."
+        },
+        "liability": {
+          "title": "9. Haftungsbeschränkung",
+          "content": "Unsere Haftung ist auf den gezahlten Betrag begrenzt."
+        },
+        "governingLaw": {
+          "title": "10. Anwendbares Recht",
+          "content": "Polnisches Recht ist anwendbar."
+        },
+        "amendments": {
+          "title": "11. Änderungen",
+          "content": "Wir können diese Bedingungen aktualisieren."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Cookie-Richtlinie",
+      "effectiveDate": "In Kraft getreten am: 9. Juni 2025",
+      "intro": "Diese Cookie-Richtlinie erklärt die Verwendung von Cookies auf unserer Website.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "1. Was sind Cookies?",
+          "content": "Kleine Textdateien, die auf Ihrem Gerät gespeichert werden."
+        },
+        "cookieTypes": {
+          "title": "Cookie-Arten:",
+          "items": [
+            "Session-Cookies: Werden beim Schließen des Browsers gelöscht.",
+            "Persistente Cookies: Bleiben bis zum Ablaufdatum gespeichert.",
+            "First-Party vs. Third-Party Cookies"
+          ]
+        },
+        "ourCookies": {
+          "title": "2. Verwendete Cookies",
+          "table": "Typ | Zweck | Beispiele\nEssenziell | Notwendig für Website-Funktion | Sitzungsverwaltung\nPerformance | Analyse des Nutzerverhaltens | Google Analytics\nFunktional | Speicherung von Präferenzen | Spracheinstellungen\nMarketing | Werbetracking | Meta Pixel"
+        },
+        "legalBasis": {
+          "title": "3. Rechtsgrundlage",
+          "content": "Essenzielle Cookies basieren auf berechtigtem Interesse."
+        },
+        "managingCookies": {
+          "title": "4. Cookie-Einstellungen",
+          "content": "Verwaltung über Cookie-Banner oder Browsereinstellungen."
+        },
+        "thirdParty": {
+          "title": "5. Drittanbieter-Cookies",
+          "content": "Wir nutzen Dienste wie Google Analytics."
+        },
+        "changes": {
+          "title": "6. Änderungen",
+          "content": "Wir können diese Richtlinie aktualisieren."
+        },
+        "contact": {
+          "title": "7. Kontakt",
+          "content": "Bei Fragen zu dieser Cookie-Richtlinie:",
+          "email": "E-Mail: privacy@fyndo.co",
+          "address": "Postanschrift:\n2digits SP. Z o. o.\nul. Zlota 75A/7\n00-819 Warszawa, Polen"
+        }
+      }
     }
+  }
 }

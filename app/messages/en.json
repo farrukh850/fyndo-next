@@ -136,9 +136,187 @@
     ],
     "copy-right": "Copyright © 2025 2digits Sp. z o.o. All rights reserved.",
     "footer-links-more" : [
-      { "label": "Privacy Policy", "href": "/" },
+      { "label": "Privacy Policy", "href": "privacy" },
       { "label": "Terms and Conditions", "href": "/" },
       { "label": "Support", "href": "/" }
     ]
+  },
+   "About": {
+    "title": "About Us",
+    "description": "We build amazing web applications."
+  },
+  "PrivacyPage": {
+    "navigation": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms and Conditions",
+      "cookies": "Cookie Policy"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "effectiveDate": "Effective Date: June 9, 2025",
+      "intro": "This Privacy Policy describes how Fyndo, a product of 2digits SP. Z o. o., collects, uses, and protects your personal information when you use our website and purchase our digital consulting packages.",
+      "sections": {
+        "whoWeAre": {
+          "title": "1. Who We Are",
+          "content": "Fyndo is a digital consulting platform offering expert IT guidance to non-technical founders and investors. We provide two products online: the Screening Package (for reviewing candidates) and the Estimation Package (for estimating project scope and cost).",
+          "companyDetails": "Company Details:\n2digits SP. Z o. o.\nul. Zlota 75A/7\n00-819 Warszawa, Poland\nVAT Number: PL5273047411\nREGON Number: 527416810\nKRS Number: 0001024599"
+        },
+        "informationWeCollect": {
+          "title": "2. Information We Collect",
+          "content": "We collect the following types of data:",
+          "items": [
+            "Personal Information: Name, email, billing details, and company info when you make a purchase or contact us.",
+            "Usage Data: IP address, browser type, operating system, and page visits for analytics.",
+            "Communication Data: Emails or other messages you send to us."
+          ]
+        },
+        "dataSharing": {
+          "title": "3. Data Sharing and Disclosure",
+          "content": "We do not sell or rent your personal data. We only share it with:",
+          "items": [
+            "Trusted service providers (e.g., payment processors, email providers)",
+            "Authorities when required by law or legal process"
+          ]
+        },
+        "dataSecurity": {
+          "title": "4. Data Security",
+          "content": "We apply appropriate technical and organizational measures to protect your data. Access is limited to authorized personnel only."
+        },
+        "yourRights": {
+          "title": "5. Your Rights",
+          "content": "As an EU resident, you have the right to:",
+          "items": [
+            "Access your data",
+            "Request correction or deletion",
+            "Withdraw consent",
+            "Object to processing",
+            "Lodge a complaint with a data protection authority"
+          ],
+          "contact": "To exercise your rights, email us at privacy@fyndo.co."
+        },
+        "dataRetention": {
+          "title": "6. Data Retention",
+          "content": "We retain data as long as necessary for the purposes described above, or as required by law."
+        },
+        "cookies": {
+          "title": "7. Cookies",
+          "content": "We use essential and analytical cookies to enhance user experience. You may disable cookies in your browser settings."
+        },
+        "internationalTransfers": {
+          "title": "8. International Transfers",
+          "content": "Your data may be processed outside the EU in countries with adequate protection standards or under appropriate safeguards."
+        },
+        "policyChanges": {
+          "title": "9. Changes to This Policy",
+          "content": "We may update this policy from time to time. Changes will be posted on this page with an updated effective date."
+        }
+      }
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "effectiveDate": "Effective Date: May 2, 2025",
+      "intro": "Welcome to Fyndo, a digital consulting service by 2digits SP. Z o. o. These Terms and Conditions ('Terms') govern your use of our website and the purchase of our digital products.",
+      "sections": {
+        "services": {
+          "title": "1. Services Provided",
+          "content": "Fyndo offers two digital consulting packages:",
+          "items": [
+            "Screening Package: Candidate review service",
+            "Estimation Package: IT project scoping and estimation"
+          ],
+          "note": "We provide consulting services only, not development or implementation."
+        },
+        "eligibility": {
+          "title": "2. Eligibility",
+          "content": "By using our services, you confirm that you are at least 18 years old and have legal capacity to enter into a binding contract."
+        },
+        "ordering": {
+          "title": "3. Ordering and Payment",
+          "items": [
+            "All services are purchased online via our platform.",
+            "Prices are in EUR, excluding VAT, which is applied per local rates.",
+            "Payments must be made in full before service delivery."
+          ],
+          "note": "We use secure third-party payment providers. You agree to their terms and conditions when making a purchase"
+        },
+        "delivery": {
+          "title": "4. Service Delivery",
+          "content": "Services are typically delivered within the agreed timeframe, depending on package type and project complexity. Delays caused by client inaction or missing information are not our responsibility."
+        },
+        "refunds": {
+          "title": "5. Refund Policy",
+          "content": "Due to the nature of our digital services, all sales are final. Refunds are only considered if Fyndo fails to deliver the service as described, and after internal review."
+        },
+        "responsibilities": {
+          "title": "6. Client Responsibilities",
+          "content": "You agree to provide accurate and complete information necessary for us to perform the services. Misrepresentation or lack of cooperation may result in service delays or termination."
+        },
+        "ip": {
+          "title": "7. Intellectual Property",
+          "content": "All content and deliverables provided remain the intellectual property of Fyndo and/or 2digits SP. Z o. o., unless otherwise agreed in writing. You may use deliverables for internal and project-planning purposes only."
+        },
+        "warranties": {
+          "title": "8. Disclaimer of Warranties",
+          "content": "Fyndo provides consulting services 'as-is' and disclaims all warranties, express or implied. We do not guarantee project outcomes or performance based on our recommendations."
+        },
+        "liability": {
+          "title": "9. Limitation of Liability",
+          "content": "To the fullest extent permitted by law, Fyndo's total liability for any claim arising out of or related to our services shall not exceed the amount you paid for the specific service."
+        },
+        "governingLaw": {
+          "title": "10. Governing Law and Jurisdiction",
+          "content": "These Terms shall be governed by and construed in accordance with the laws of Poland. Any disputes shall be subject to the exclusive jurisdiction of the courts in Warsaw, Poland."
+        },
+        "amendments": {
+          "title": "11. Amendments",
+          "content": "We may update these Terms periodically. Your continued use of our services constitutes acceptance of the revised Terms."
+        }
+      }
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "effectiveDate": "Effective Date: June 9, 2025\nLast Updated: June 9, 2025",
+      "intro": "This Cookie Policy explains how Fyndo, a product of 2digits SP. Z o. o., uses cookies and similar technologies on our website, in accordance with the General Data Protection Regulation (GDPR) and other applicable laws.",
+      "sections": {
+        "whatAreCookies": {
+          "title": "1. What Are Cookies?",
+          "content": "Cookies are small text files that are stored on your device when you visit a website. They allow the website to recognize your device and store information about your preferences or actions over time."
+        },
+        "cookieTypes": {
+          "title": "Types of Cookies:",
+          "items": [
+            "Session cookies: Deleted when you close your browser.",
+            "Persistent cookies: Stored until they expire or are manually deleted.",
+            "First-party vs third-party cookies: Set by us or by services we use."
+          ]
+        },
+        "ourCookies": {
+          "title": "2. Types of Cookies We Use",
+          "table": "Type | Purpose | Examples\nEssential | Necessary for website functionality | Session handling\nPerformance | Help understand visitor interactions | Google Analytics\nFunctional | Remember user preferences | Language settings\nMarketing | Track visitors for advertising | Meta Pixel"
+        },
+        "legalBasis": {
+          "title": "3. Legal Basis for Using Cookies",
+          "content": "Essential cookies are used based on our legitimate interest. All other cookies require your prior consent through our cookie banner."
+        },
+        "managingCookies": {
+          "title": "4. Managing Your Cookie Preferences",
+          "content": "You can manage cookies via our cookie banner or browser settings. Disabling cookies may affect website functionality."
+        },
+        "thirdParty": {
+          "title": "5. Third-Party Cookies",
+          "content": "We may use services like Google Analytics and Meta Pixel which place their own cookies. See their privacy policies for more information."
+        },
+        "changes": {
+          "title": "6. Changes to This Cookie Policy",
+          "content": "We may update this policy from time to time. Changes will be posted here with an updated effective date."
+        },
+        "contact": {
+          "title": "7. Contact Us",
+          "content": "If you have questions about this Cookie Policy:",
+          "email": "Email: privacy@fyndo.co",
+          "address": "Postal Address:\n2digits SP. Z o. o.\nul. Zlota 75A/7\n00-819 Warszawa, Poland"
+        }
+      }
     }
+  }
 }
