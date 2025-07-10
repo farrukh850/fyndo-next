@@ -7,7 +7,7 @@ import clsx from 'clsx';
 
 export default function Accordion() {
   const t = useTranslations();
-  const accordionData = t.raw('accordion') as { title: string; content: string }[];
+  const accordionData = t.raw('HomePage.accordion') as { title: string; content: string }[];
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleAccordion = (index: number) => {

@@ -8,8 +8,8 @@ function TechStacks() {
             <img src="/images/star.svg" alt="Star" />
             <p className="text-[11px] lg:text-[13px] leading-[15px] lg:leading-[15.6px] font-inter uppercase text-[#937DF2] font-medium">Fyndo’s Tech Arsenal</p>
         </div>
-        <h2 className="text-[43px] leading-[44px] lg:text-[47.63px] mt-2 h-[164px] lg:leading-[60px] tracking-[-1px] text-black font-bagoss text-left lg:text-center lg:max-w-[50%] w-full mx-auto">{t('tech-stack-heading')}</h2>
-        <p className="text-[15px] leading-5 lg:text-lg lg:leading-[25.92px] mt-8 lg:-mt-8 tracking-[-1%] text-[#4D4D4D] font-inter text-left lg:text-center whitespace-pre-line">{t('tech-stack-subheading')}</p>
+        <h2 className="text-[43px] leading-[44px] lg:text-[47.63px] mt-2 h-[164px] lg:leading-[55px] tracking-[-1px] text-black font-bagoss text-left lg:text-center lg:max-w-[50%] w-full mx-auto whitespace-pre-line">{t('tech-stack-heading')}</h2>
+        <p className="text-[15px] leading-5 lg:text-lg lg:leading-[25.92px] mt-8 lg:-mt-8 tracking-[-1%] text-[#4D4D4D] font-inter text-left lg:text-center whitespace-pre-line font-[300]">{t('tech-stack-subheading')}</p>
             <div className="grid grid-cols-5 lg:grid-cols-16 gap-5 lg:gap-8 items-center mt-[26px] lg:mt-[75px] px-[13px]">
               <div className="col-span-1 rounded-2xl bg-white">
                   <img src="/images/tech-icon1.svg" className="w-full" alt="Tech Icon" />

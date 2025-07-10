@@ -17,15 +17,15 @@ const LandingPageComponent = () => {
       {/* Packages heading */}
       <Packagestags />
       {/* Banner */}
-      <Banner />
+      <Banner id="banner" />
       {/* Lower Costs, and Better Decisions—Fyndo Saves You Up to 74%. */}
-      <FyndoSavings />
-      <FyndoPackages />
-      <FyndoSteps />
-      <FyndoMoreSteps />
+      <FyndoSavings id="fyndo-saving" />
+      <FyndoPackages id="estimation" idtwo="screening" />
+      <FyndoSteps id="how-it-work" />
+      <FyndoMoreSteps id="safeguard" />
       <TechStacks />
-      <FyndoDreams />
-      <FAQ />
+      <FyndoDreams id="our-story" />
+      <FAQ id="faq" />
     </main>
   );
 };

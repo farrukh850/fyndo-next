@@ -1,32 +1,23 @@
 import { useRef, useState } from "react";
 
 function Video() {
-  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isMuted, setIsMuted] = useState(true);
 
   const toggleMute = () => {
-    if (!iframeRef.current) return;
-
-    // Send postMessage to iframe
-    iframeRef.current.contentWindow?.postMessage(
-      JSON.stringify({
-        event: 'command',
-        func: isMuted ? 'unmute' : 'mute'
-      }),
-      '*'
-    );
-
-    setIsMuted((prev) => !prev);
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(videoRef.current.muted);
+    }
   };
+
   return (
-    <div className="max-w-[408px] w-full h-[564px] mx-auto group z-10 relative">
-      <iframe
-        ref={iframeRef}
-        src="https://iframe.mediadelivery.net/embed/463100/1fd1c08b-044f-46ed-ad30-7c8b0125fb34?autoplay=false&loop=true&muted=true"
-        loading="lazy"
-        allow="autoplay"
-        className="w-full h-full object-cover"
-      />
+    <div className="max-w-[408px] w-full h-[564px] mx-auto group z-10 relative rounded-2xl overflow-hidden">
+      <video ref={videoRef} muted={isMuted} loop playsInline autoPlay className="w-full h-full object-cover rounded-2xl">
+        <source src="/images/fyndo_intro2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
 
       <button
         onClick={toggleMute}
@@ -48,7 +39,7 @@ function Video() {
         )}
       </button>
     </div>
-  )
+  );
 }
 
-export default Video
+export default Video;

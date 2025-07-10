@@ -1,12 +1,10 @@
 import React from "react"
 import Image from "next/image";
-import German from "@/app/assets/images/german-flag.png";
-import FyndoIcon from "@/app/assets/images/logo.svg";
 import {useTranslations} from 'next-intl';
 import { useLocale } from 'next-intl';
 function Header() {
   const t = useTranslations('HomePage');
-    const locale = useLocale();
+  const locale = useLocale();
   const navLinks  = t.raw('navbar-links') as { label: string; href: string }[];
   const logoSrc = locale === 'de'
   ? '/images/logo-de.svg'

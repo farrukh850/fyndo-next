@@ -1,32 +1,21 @@
 import { useRef, useState } from "react";
 
 function VideoPackages() {
-  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isMuted, setIsMuted] = useState(true);
 
   const toggleMute = () => {
-    if (!iframeRef.current) return;
-
-    // Send postMessage to iframe
-    iframeRef.current.contentWindow?.postMessage(
-      JSON.stringify({
-        event: 'command',
-        func: isMuted ? 'unmute' : 'mute'
-      }),
-      '*'
-    );
-
-    setIsMuted((prev) => !prev);
+    if (videoRef.current) {
+      videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(videoRef.current.muted);
+    }
   };
   return (
     <div className="w-full h-[564px] lg:h-[640px] rounded-2xl overflow-hidden relative">
-        <iframe
-        ref={iframeRef}
-        src="https://iframe.mediadelivery.net/play/463100/f5729682-d0d4-452b-82d2-8576932f31cd?autoplay=false&loop=false&muted=true"
-        loading="lazy"
-        allow="autoplay"
-        className="w-full h-full object-cover"
-      />
+      <video ref={videoRef} muted={isMuted} loop playsInline autoPlay className="w-full h-full object-cover rounded-2xl">
+        <source src="/images/fyndo_screening.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         <button
             onClick={toggleMute}
             className="absolute bottom-4 right-4 bg-black/70 text-white p-2 rounded-full"

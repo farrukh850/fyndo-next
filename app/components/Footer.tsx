@@ -1,15 +1,15 @@
 import React from "react"
 import {useTranslations} from 'next-intl';
 
-function Footer() {
+function Footer({ id }: { id: string }) {
   const t = useTranslations('HomePage');
   const links = t.raw('footer-links') as { label: string; href: string }[];
   const linksmore = t.raw('footer-links-more') as { label: string; href: string }[];
   return (
-  <footer className="bg-[#151413] mx-1 lg:mx-0 rounded-2xl max-w-[1408px] px-4 pb-3.5 pt-10.5 lg:pt-[106px] my-4 lg:pb-2.5">
+  <footer id={id} className="bg-[#151413] mx-1 lg:mx-0 rounded-2xl max-w-[1408px] px-4 pb-3.5 pt-10.5 lg:pt-[106px] my-4 lg:pb-2.5">
             <div className="flex flex-col gap-3">
                 <h2 className="text-[40px] leading-11 lg:text-[47.63px] text-center lg:leading-[60px] text-white font-bagoss whitespace-pre-line">{t('cta-heading')}</h2>
-                <p className="text-sm leading-5 lg:text-lg text-center lg:leading-[25.92px] max-w-[688px] mx-auto text-[#B3B3B3] whitespace-pre-line">{t('cta-text')}</p>
+                <p className="text-sm leading-5 lg:text-lg text-center lg:leading-[25.92px] max-w-[688px] mx-auto text-[#B3B3B3] whitespace-pre-line font-[300]">{t('cta-text')}</p>
                 <div className="flex items-center gap-3.5 justify-center mt-2">
                     <a href="#"><img src="/images/whatsapp.svg" alt="Whatsapp" /></a>
                     <a href="#"><img src="/images/telegram.svg" alt="Telegram" /></a>
@@ -37,7 +37,7 @@ function Footer() {
                             {linksmore.map((link, index) => (
                                 <div key={index} className="flex items-center gap-1 lg:gap-2">
                                 {index > 0 && (
-                                    <span className="w-0.5 h-0.5 bg-[#A1A1A1] rounded-full d-block mt-1.5" />
+                                    <span className="w-1 h-1 bg-[#A1A1A1] rounded-full d-block" />
                                 )}
                                 <a
                                     href={link.href}
