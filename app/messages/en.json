@@ -143,10 +143,6 @@
       { "label": "Support", "href": "#support" }
     ]
   },
-   "About": {
-    "title": "About Us",
-    "description": "We build amazing web applications."
-  },
   "PrivacyPage": {
     "navigation": {
       "privacy": "Privacy Policy",
@@ -320,5 +316,13 @@
         }
       }
     }
+  },
+  "CookieConsent": {
+    "heading" : "Cookie Preferences",
+    "message": "We use cookies to enhance your experience. Choose your preferences below. Read about our privacy policy here.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "settings": "Settings",
+    "privacyLink": "here"
   }
 }

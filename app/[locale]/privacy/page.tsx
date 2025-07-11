@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
+import CookieConsent from "../../components/CookieConsent";
 
 export default function PrivacyPage() {
   const t = useTranslations('PrivacyPage');
@@ -111,6 +112,7 @@ export default function PrivacyPage() {
   };
 
   return (
+   <>
     <div className="mt-[68px]">
       <div className="hidden lg:flex items-center justify-center gap-8 border-t border-b border-[#EFEFF0] h-[50px] fixed top-[68px] right-0 left-0 bg-white z-50">
         <a 
@@ -206,5 +208,7 @@ export default function PrivacyPage() {
         </div>
       </div>
     </div>
+    <CookieConsent />
+    </>
   );
 }
