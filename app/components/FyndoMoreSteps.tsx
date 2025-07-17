@@ -4,7 +4,7 @@ import {useTranslations} from 'next-intl';
 function FyndoMoreSteps({ id }: { id: string }) {
   const t = useTranslations('HomePage');
   return (
-    <section id={id} className="pb-[59px] lg:pb-[139px] px-2.5 lg:px-0">
+    <section id={id} className="pb-[59px] lg:pb-[139px] px-2.5 lg:px-0 lg:scroll-mt-[150px]">
         <div className="flex items-center justify-center gap-[9px]">
             <img src="/images/star.svg" alt="Star" />
             <p className="text-[11px] lg:text-[13px] leading-[15px] lg:leading-[15.6px] font-inter uppercase text-[#937DF2] font-medium">Fyndo in 3 Easy Steps</p>

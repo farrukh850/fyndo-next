@@ -12,8 +12,8 @@
       { "label": "Support", "href": "#support" }
     ],
     "packages-labels" : [
-      { "label": "Estimation Package" },
-      { "label": "Screening Package" }
+      { "label": "Estimation Package", "href":"#estimation" },
+      { "label": "Screening Package", "href":"#screening" }
     ],
     "navbar-btn": "Pick a Plan",
     "banner_title": "Up to 70% of IT projects fail—\n Fyndo helps non-tech founders take control.",
@@ -117,7 +117,7 @@
       },
       {
         "title": "How Fast Do You Guys Actually Move?",
-        "content": "We move fast — really fast. Screening processes kick off..."
+        "content": "We move fast — really fast. Screening processes kick off within 24 hours of sign-up, and our Estimation documents are delivered within 72 hours. We’ve built Fyndo’s operations to eliminate traditional bottlenecks: no long onboarding processes, no weeks of waiting. Whether you’re evaluating candidates or defining project scope, you’ll get actionable results within days, not months. For startups, investors, and founders trying to capture market opportunities quickly, our speed is a crucial advantage. We believe in fast action paired with high quality, so you can make decisions and execute confidently."
       }
     ],
 

@@ -36,13 +36,13 @@ export default function CookieConsent() {
                 onClick={handleAccept}
                 className="px-3 h-7 bg-transparent hover:bg-white/10 transition-colors text-dark rounded-md font-medium text-sm cursor-pointer"
                 >
-                    {t('reject')}
+                {t('reject')}
                 </button>
                 <button
                 onClick={handleAccept}
                 className="px-3 h-7 bg-[#4E00D5] transition-colors text-dark rounded-md font-medium text-sm cursor-pointer"
                 >
-                    {t('accept')}
+                {t('accept')}
                 </button>
             </div>
         </div>

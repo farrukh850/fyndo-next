@@ -4,7 +4,7 @@ function TechStacks() {
   const t = useTranslations('HomePage');
   return (
     <section className="pt-[74px] px-2.5 lg:px-0 pb-10 mb-10 max-w-[1408px] mx-auto bg-[#F7F6F3] rounded-2xl">
-        <div className="flex items-center justify-center gap-[9px]">
+        <div className="flex items-center lg:justify-center gap-[9px]">
             <img src="/images/star.svg" alt="Star" />
             <p className="text-[11px] lg:text-[13px] leading-[15px] lg:leading-[15.6px] font-inter uppercase text-[#937DF2] font-medium">Fyndo’s Tech Arsenal</p>
         </div>

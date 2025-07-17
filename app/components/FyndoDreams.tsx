@@ -10,12 +10,12 @@ function FyndoDreams({ id }: { id: string }) {
     ? '/images/kaaz.png'
     : '/images/fyndo-creators.png';
   return (
-    <section id={id} className="py-[34px] lg:pt-[57px] px-2.5 lg:px-0 lg:pb-[128px]">
+    <section id={id} className="py-[34px] lg:pt-[57px] px-2.5 lg:px-0 lg:pb-[128px] lg:scroll-mt-[120px]">
                     <div className="flex items-center justify-center gap-[9px]">
                         <img src="images/star.svg" alt="Star" />
                         <p className="text-[11px] lg:text-[13px] leading-[15px] lg:leading-[15.6px] font-inter uppercase text-[#937DF2] font-medium">{t('biggie-small-heading')}</p>
                     </div>
-                    <h2 className="text-[43px] leading-[44px] lg:text-[47.63px] mt-2 h-[121px] lg:leading-[60px] tracking-[-1px] text-black font-bagoss text-left lg:text-center whitespace-pre-line">{t('biggie-heading')}</h2>
+                    <h2 className="text-[43px] leading-[44px] lg:text-[47.63px] mt-2 lg:h-[121px] lg:leading-[60px] tracking-[-1px] text-black font-bagoss text-left lg:text-center whitespace-pre-line">{t('biggie-heading')}</h2>
                     <p className="text-[15px] leading-5 lg:text-lg lg:leading-[25.92px] mt-8 lg:mt-6 tracking-[-1%] text-[#4D4D4D] font-inter text-left lg:text-center whitespace-pre-line">{t('biggie-subheading')}</p>
                     <div className="flex flex-col lg:flex-row items-stretch gap-4 justify-between mt-16 max-w-[1200px] mx-auto">
                         <div className="flex-[32%] pt-[47px] px-6 pb-6 bg-[#F7F6F3] rounded-xl">
